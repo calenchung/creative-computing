@@ -1,0 +1,88 @@
+IDEATION: 
+An shorter interactive web version of my publication Space R(Age). 
+The idea is to get people to become interested in the subject matter and 
+then hopefully become interested in looking at the book. The purpose is not to 
+relay all the information from the publication, but instead to garner interest. 
+A clean minimal style with small animations and clean typography will be 
+consistent throughout the site, along with photos from Nasa. 
+
+
+================================================================
+SITE INSPIRATIONS:
+================================================================
+https://cnx.condenast.com/who-we-are
+http://printandscreen.org
+https://www.xxix.co/   -------> the dream drag / click
+http://spin.co.uk/     -------> layout of the header and the time stamp. 
+                            *sidenote* the code for it wasn't copied and pasted I coded it myself but referenced how it looked!
+                                (idk if thats better lmao)
+================================================================
+
+
+
+
+
+
+================================================================
+CODING REFERENCES:
+================================================================
+-------------------------------
+
+svg line animation (home):
+
+https://css-tricks.com/svg-line-animation-works/
+
+-------------------------------
+
+Span image hover (home)
+
+https://stackoverflow.com/questions/14040946/span-image-hover-in-css
+
+-------------------------------
+
+pop up box  (debate):
+
+https://codepen.io/Gthibaud/pen/MqpmXE    -----> The styles for the modal 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal  -----> Help with tying on-click event to previous modal. 
+
+-------------------------------
+================================================================
+
+Dragging elements :
+
+-drag-
+http://jsfiddle.net/wfbY8/4/
+-no highlight when dragging-
+https://stackoverflow.com/questions/1224433/how-can-i-disable-highlighting-in-html-or-js
+
+
+================================================================
+
+©
+
+
+
+================================================================
+SITE INFORMATION REFERENCES:
+================================================================
+-------------------------------
+Sources:
+-------------------------------
+Nasa.gov
+Apollo 11 Mission Overview.
+            https://www.nasa.gov/mission_pages/apollo/missions/apollo11.html
+-------------------------------
+Analysis
+    http://www.aulis.com/raytracing_as11.htmSR 
+-------------------------------
+Is Nasa a Waste of Money?
+    https://www.debate.org/opinions/is-nasa-a-waste-of-money 
+-------------------------------
+Typefaces:
+Helvetica Neue: Linotype
+Ibm Plex Mono: IBM
+-------------------------------
+Photo Credits:
+images.nasa.gov
+-------------------------------
+================================================================

@@ -1,0 +1,583 @@
+body {
+	background: white;
+	font-family: "Helvetica Neue",sans-serif;
+    padding-right: 20px;
+    line-height: 1.25;
+    font-size: 40px;
+	color: black;
+    text-align: right;
+}
+
+
+h1{
+margin-right: auto;
+margin-left: auto;
+	text-align: center;
+	font-size: 80px;
+}
+
+h2{
+	padding-right: 0px;
+    top: 0;
+    margin-left: 2vw;
+	text-align: left;
+	font-size: 100px;
+}
+
+
+#footer {
+    position: absolute;
+    padding-bottom: 5vh;
+    right: 2%;
+    font-size: 40px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+/* =============================== NAVIGATION ======================================= */
+
+
+.timestamp {
+	font-family: ibm-plex-mono, sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	position: sticky;
+	position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  z-index: 100;
+
+}
+
+p {
+	font-family: "Helvetica Neue",sans-serif;
+	padding-right: 20px;
+	font-weight: 800;
+    line-height: 1.25;
+    font-size: 65px;
+	color: black;
+	text-align: left;
+    margin-left: 5vw;
+    
+}
+
+#debpara {
+  font-size: 40px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	margin-right: 29vw;
+	padding: 0;
+	position: -webkit-sticky;
+	position: fixed;
+	margin-top: 10px;
+	top: 0; left: 0; right: 0;
+	font-size: 20px;
+	font-weight: 500;
+	z-index: 200;
+  }
+  
+  li {
+    float: right;
+    text-decoration: none;
+  }
+  
+  li a {
+	display: block;
+	color: black;
+	text-align: right;
+	text-decoration: none;
+  }
+  
+  li a:hover {
+	color: black;
+  }
+  
+
+.navigation img {
+	display: none;
+	width: 7vw;
+
+ }
+ 
+ .navigation span:hover + img {
+	display: block;
+	position: fixed;
+	margin-top: 30px;
+	margin-left:58vw;
+	top: 0; left: 0; right: 0;
+	z-index: -100;
+ }
+
+
+ #image1 {
+	display: block;
+	width: 50vw;
+	margin-top: 0vh;
+	margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60vh;
+}
+
+
+/* =============================== SECTIONS ======================================= */
+
+  
+  #section1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    justify-content: center;
+  }
+  
+  p {
+    letter-spacing: .01em;
+    line-height: 1.25;
+    margin: 0 auto;
+    max-width: 70vw;
+    opacity: 1;
+    font-size: 70px;
+  }
+
+
+  #section-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 160vh;
+  justify-content: center;
+}
+
+  #section-2 p {
+    transition: all 2.5s ease-out;
+    height: 180vh;
+  }
+  
+  #section-2 p.active {
+    color: black;
+    letter-spacing: .01em;
+    line-height: 1.25;
+    opacity: 1;
+    font-family: "Helvetica Neue",sans-serif;
+    font-size: 40px;
+
+  }
+
+
+
+  #section-3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+    #section-3 p {
+      height: 180vh;
+      color: black;
+      letter-spacing: .01em;
+      line-height: 1.25;
+      opacity: 1;
+      font-family: "Helvetica Neue",sans-serif;
+      font-size: 1.1em;
+    }
+    
+    #section-3 p.active {
+      color: black;
+      letter-spacing: .01em;
+      line-height: 1.25;
+      opacity: 1;
+      font-family: "Helvetica Neue",sans-serif;
+      font-size: 1.1em;  
+    }
+
+  .fig #fig3 img {
+	display: none;
+	width: 20vw;
+
+ }
+
+  .fig img {
+	display: none;
+	width: 45vw;
+
+ }
+ 
+ .fig span:hover + img {
+    display: block;
+    position: fixed;
+	margin-top: 10vh;
+    margin-right: auto;
+    margin-left: auto;
+    top: 0; left: 0; right: 0;
+	z-index: -100;
+ }
+
+
+ .path {
+
+	stroke-dasharray: 1000;
+	stroke-dashoffset: 1000;
+	animation: dash 3.5s linear alternate infinite;
+  }
+  
+  @keyframes dash {
+	to {
+	  stroke-dashoffset: 0;
+	}
+  }
+
+#arrow {
+	
+	margin-top: 35vh;
+}
+
+
+
+
+
+
+.modalbox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 3rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.message {
+  font-size:1.1rem;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+}
+.btn {
+    font-family:inherit;
+  font-size: inherit;
+  background: white;
+  padding: 0.3rem 3.4rem;
+  border: 3px solid black;
+  margin-right: 2.6rem;
+  box-shadow: 0 0 0 black;
+  transition: all 0.2s;
+}
+
+.btn:last-child {
+  margin: 0;
+}
+
+.btn:hover {
+  box-shadow: 0.4rem 0.4rem 0 black;
+  transform: translate(-0.4rem, -0.4rem);
+}
+
+.btn:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 0);
+}
+
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+
+
+
+h4{
+  font-size: 20px;
+  text-align: left;
+}
+
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 8px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  font-size: 10px;
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  width: 80%;
+    font-size: 10px;
+    padding: 1rem 2rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
+.modalbox2 {
+  position: absolute;
+  width: 30vw;
+  left: 1%;
+  top: 70%;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.modalbox3 {
+  position: absolute;
+  width: 42vw;
+  top: 90%;
+  left: 50%;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.modalbox4 {
+  position: absolute;
+  width: 40vw;
+  top: 150vh;
+  left: 20%;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modalbox5 {
+  position: absolute;
+  width: 25vw;
+  top: 120vh;
+  left: 60%;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modalbox6 {
+  position: absolute;
+  width: 25vw;
+  top: 100vh;
+  left: 10%;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modalbox7 {
+  position: absolute;
+  width: 45vw;
+  top: 200vh;
+  left: 10%;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modalbox8 {
+  position: absolute;
+  width: 45vw;
+  top: 250vh;
+  right: 10%;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modalbox9 {
+  position: absolute;
+  width: 45vw;
+  top: 180vh;
+  right: 10%;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.modalboxend {
+  position: absolute;
+  width: 45vw;
+  top: 360vh;
+  right: 10%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 2.5rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* NO HIGHLIGHT FOR THE DRAG */
+
+::-moz-selection{
+  background-color:Transparent;
+  color:#000;
+  }
+
+  ::selection {
+  background-color:Transparent;
+  color:#000;
+  }
+.myclass::-moz-selection,
+.myclass::selection { ... }
+
+
+
+
+
+
+
+#dollar {
+	margin-left: 1vw;
+	padding: 0;
+	position: -webkit-sticky;
+	position: fixed;
+	top: 0; left: 0; right: 0;
+	font-weight: 500;
+	z-index: 1;
+    font-size: 90px;
+    text-decoration: none;
+	background: none;
+	border: none;
+	color: black;
+	z-index: 1;
+}
+
+
+
+.modalbook {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 30vh; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+	padding: 1.5rem 3rem;
+	border: 3px solid black;
+	border-radius: 5px;
+	background: white;
+	box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+	margin: auto;
+	padding: 20px;
+	width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+#colophon {
+	font-size: 1rem;
+}
+
+#colo {
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+	z-index: 1;
+	padding-bottom: 10px;
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+	margin-left: 97vw;
+	margin-top: -35px;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+color:black  }

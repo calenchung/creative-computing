@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Practice</title>
+    <link href="css/normalize.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://use.typekit.net/llj1yzv.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<ul>
+  <li><a href="#works">Works.</a></li>
+  <li><a href="#likes">Likes.</a></li>
+  <li><a href="#locations">Locations.</a></li>
+  <li><a href="#calen">Calen.</a></li>
+</ul>
+    <h1 id="calen">
+        Calen Chung.
+    </h1>
+
+    <div class="parallax"></div>
+    <div style="height:3220px;background-color:#FDF18A;font-size:36px">
+    <h2 id="locations">Locations.</h2>
+        <img src="images/california.svg" class="image1">
+            <p id= "state1">California</p> 
+                <p id="california">Calen was born in Fremont California.</p>  
+        <img src="images/northcarolina.svg" class="image2">
+            <p id= "state2">North Carolina</p>
+                <p id="northcarolina">This is where she grew up and spent her childhood. 
+                She lived here from the ages of 1-16. </p>  
+        <img src="images/virginia.svg" class="image3">
+            <p id= "state3">Virginia</p>
+                <p id="virginia">A change in her dad’s job change had 
+                Calen move to McLean, a suburb outside of Washington D.C.</p> 
+        <img src="images/washington.svg" class="image4">
+            <p id= "state4">Washington</p> 
+                <p id="washington">After graduating high school, 
+                she changed locations to Seattle, where her parents now reside. </p>
+        <img src="images/newyork.svg" class="image5">
+            <p id= "state5">New York</p>
+                <p id="newyork">Calen currently lives in New York City where she attends school.</p>
+
+    <h3 id="likes">
+        Likes.
+    </h3>
+
+
+
+    <div class="favorites container">
+        <p class="marquee">
+            
+            Parks and Rec. <br/>
+            Phineas and Ferb <br/>
+            Apples <br/>
+            Grapes <br/>
+            Oreos <br/>
+            Netflix <br/>
+            Drawing <br/>
+            Moisturizing <br>
+            Petting dogs <br>
+            Itching a scratch <br/>
+            Running <br/>
+            Eating candy <br>
+            Eating <br>
+            Breathing <br>
+            Grapes <br/>
+            Oreos <br/>
+            Parks and Rec. <br/>
+            Phineas and Ferb <br/>
+            Apples <br/>
+            Grapes <br/>
+            Oreos <br/>
+            Parks and Recreation. <br>
+            Drawing <br/>
+            
+        </p>
+    </div>
+
+    
+    <h4 id="works">
+        Works.
+    </h4>
+    <p id="typography"> Typography </p>
+    <p id="illustration"> Illustration </p>
+    <img src="images/work1.jpg" class="work1">
+    <img src="images/work2.png" class="work2">
+    <img src="images/work3.png" class="work3">
+    <img src="images/work4.png" class="work4">
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 4000 || document.documentElement.scrollTop > 4000) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+
+
+</script>
+
+</body>
+
+</html> 
